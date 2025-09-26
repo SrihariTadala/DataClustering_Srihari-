@@ -1,5 +1,5 @@
 **Week 2**
 
-This week, I spent more time working on the K-Center algorithm. I tried to figure out how it was different from K-Means and K-Median, especially the idea of minimizing the maximum distance instead of the average distance. I looked into datasets online that have to do with finding the best places for emergency facilities, like where to put an ambulance or fire station so that no area is too far away from one. These kinds of datasets seemed like a good way to test K-Center because the algorithm is based on the worst-case distance, which fits with the idea of making sure quick response times.
+This week, I spent more time working on the K-Center algorithm. I tried to figure out how it was different from K-Means and K-Median, especially the idea of minimizing the maximum distance instead of the average distance. I looked into datasets online that have to do with finding the best places for emergency facilities, like where to put an ambulance or fire station so that no area is too far away from one. These kinds of datasets seemed like a good way to test K-Center.
 
 I also started looking through some research papers that use K-Center in real-life situations, like placing facilities and responding to emergencies. Reading these helped me see how the algorithm can matter outside of theory.
