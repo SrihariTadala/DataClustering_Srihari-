@@ -11,11 +11,9 @@ However, real-world centers have **limited capacity** — each can handle only a
 This project:
 - Analyzes NYC 911 EMS incident data.
 - Implements **Capacitated K-Center** algorithm.
-- Introduces **binary search-based bounding** for finding minimal feasible radius.
-- Compares unconstrained vs. capacity-constrained clustering.
 - Visualizes cluster assignments on a city map using **GeoPandas** and **Folium**.
 
-## 🧮 Tech Stack
+## Tech Stack
 
 | Category | Tools / Libraries |
 |-----------|------------------|
@@ -25,10 +23,11 @@ This project:
 | **Algorithms** | scikit-learn (K-Means), custom K-Center + flow assignment |
 | **Environment** | Google Colab / Jupyter Notebooks |
 
-## 🧑‍💻 Author
+## Author
 **Srihari Tadala**  
 Master’s in Computer Science, Portland State University  
 Focus: AI
-Advisor - Sayan Bandyapadhyay
+## Advisor - 
+**Sayan Bandyapadhyay**
 Assistant Professor  
 Dept. of Computer Science at Portland State University 
