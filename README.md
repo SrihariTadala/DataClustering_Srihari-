@@ -26,7 +26,6 @@ This project:
 ## Author
 **Srihari Tadala**  
 Master’s in Computer Science, Portland State University  
-Focus: AI
 ## Advisor - 
 **Sayan Bandyapadhyay**
 Assistant Professor  
