@@ -1,0 +1,7 @@
+  
+This week, I learned about the theoretical for a capacitated k-center that my advisor gave me. The main idea is to use maximum flow to deal with capacity limits while still making sure that the approximations are correct. The algorithm starts by finding an approximate vanilla clustering. Then, it expands those clusters to include the best facilities. Finally, it uses network flow to move clients around while keeping each facility's capacity limit in mind. This approach achieves a 3-approximation for general metrics, which is much better than naive approaches. The next step is to try to add the flow-based assignment mechanism to my dataset code.
+
+The best thing I learn is that we make a flow network. We make nodes for each incident and each possible place for a facility. We connect the source to each incident with an edge that can carry one unit of flow. This means that each incident needs to be assigned exactly once. We connect each facility to a destination node with an edge that can carry up to U units of flow, where U is the maximum amount of flow that can go through the edge. After that, we only link incidents to facilities if they are close enough to each other according to our larger cluster radius. When we use the maximum flow algorithm on this network, it automatically finds an assignment that keeps incidents as close as possible to their assigned facilities while still following all of the capacity limits.
+
+I'm trying to understand the algorithm deeply and work on it. 
+
